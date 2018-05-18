@@ -5,6 +5,6 @@ A simple javaScript plugin to shows the dropdown of LGA based on a Selected Stat
 <b>HOW TO</b>
 <ol>
 <li>Add the lga.js script to your project</li>
-<li> The state select filed should have an id of state</li>
-<li>The LGA Select Field should have an id of lga</li>
+<li> The state select filed should have an id of state <code>id="state"</code></li>
+<li>The LGA Select Field should have an id of lga <code>id="lga"</code></li>
 
