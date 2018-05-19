@@ -1,9 +1,9 @@
 
 
-
-
+$(document).ready(function() {
   $("#state").change(function(){            
          var state = $(this).val(); 
+		 $('#lga').select2();
 
 	
 switch (state) {
@@ -152,5 +152,5 @@ document.getElementById("lga").innerHTML = html.join('');
 
 });
 
-
+});
 
