@@ -1,5 +1,5 @@
-A dropdown of state and LGA in Nigeria.
-A simple javaScript library to shows the dropdown of LGA based on a Selected State
+## A dropdown of States and LGA in Nigeria.
+### A simple javaScript library to shows the dropdown of LGA based on a Selected State
 <br><center><img src="img/eg.png"></center><br>
 
 <b>HOW TO</b>
