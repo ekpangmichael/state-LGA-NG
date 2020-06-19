@@ -371,7 +371,7 @@
           "Udi",
           "Uzo Uwani"
         ],
-        Abuja: [
+        FCT: [
           "Abaji",
           "Bwari",
           "Gwagwalada",
@@ -917,5 +917,3 @@
       lgaSelect.appendChild(opt);
     });
   };
-
-  
