@@ -643,7 +643,7 @@
           "Shomolu",
           "Surulere"
         ],
-        Nasarawa: [
+        Nassarawa: [
           "Akwanga",
           "Awe",
           "Doma",
