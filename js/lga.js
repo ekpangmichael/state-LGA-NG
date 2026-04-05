@@ -12,8 +12,8 @@
   };
 
   const toggleLGA = target => {
-    let state = target.value,                                                         // Get value of state
-      selectLGAOption = ["Select LGA..."],                                            // Define this once so as not to repeat it multiple times
+    let state = target.value, // Get value of state
+      selectLGAOption = ["Select LGA..."],  // Define this once so as not to repeat it multiple times
       lgaList = {
         Abia: [
           "Aba North",
@@ -31,16 +31,16 @@
           "Ukwa East",
           "Ukwa West",
           "Umuahia North",
-          "muahia South",
+          "Umuahia South",  //Corrected spellings
           "Umu Nneochi"
         ],
         Adamawa: [
           "Demsa",
           "Fufure",
           "Ganye",
-          "Gayuk",
+          "Guyuk", //Corrected spellings
           "Gombi",
-          "Grie",
+          "Girei", //Corrected spellings
           "Hong",
           "Jada",
           "Larmurde",
@@ -148,16 +148,16 @@
           "Ganjuwa",
           "Giade",
           "Itas-Gadau",
-          "Jama are",
+          "Jama'are", //Corrected spellings
           "Katagum",
           "Kirfi",
           "Misau",
           "Ningi",
           "Shira",
           "Tafawa Balewa",
-          " Toro",
-          " Warji",
-          " Zaki"
+          "Toro", //removed whitespaces
+          "Warji", //removed whitespaces
+          "Zaki" //removed whitespaces
         ],
 
         Bayelsa: [
@@ -331,7 +331,7 @@
           "Port Harcourt",
           "Obio-Akpor",
           "Okrika",
-          "Ogu–Bolo",
+          "Ogu/Bolo",
           "Eleme",
           "Tai",
           "Gokana",
@@ -457,7 +457,7 @@
           "Igabi",
           "Ikara",
           "Jaba",
-          "Jema a",
+          "Jema'a", //corrected spellings
           "Kachia",
           "Kaduna North",
           "Kaduna South",
@@ -689,8 +689,8 @@
           "Abeokuta North",
           "Abeokuta South",
           "Ado-Odo Ota",
-          "Egbado North",
-          "Egbado South",
+          "Yewa North",  //Egbado North changed to Yewa North
+          "Yewa South", //Egbado South changed to Yewa South
           "Ewekoro",
           "Ifo",
           "Ijebu East",
@@ -891,7 +891,7 @@
           "Chafe",
           "Zurmi"
         ]
-      }[state],                                                                       // Ternary switch operator to show list of LGAs based on chosen state
+      }[state],                                                                        // Ternary switch operator to show list of LGAs based on chosen state
       lgas = [...selectLGAOption, ...Object.values(lgaList)],                         // Join select LGA option with list of LGAs
       form = target.parentElement.parentElement.parentElement.parentElement,          // Get parent up to the forth generation just in case LGA select element is deeply nested
       lgaSelect = form.querySelector(".select-lga"),                                  // Get the LGA select element
